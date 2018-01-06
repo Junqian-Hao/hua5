@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hao.hua5.WebActivity">
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wv_web">
+</WebView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251dp"
+        android:layout_y="36dp"
+        android:background="#00000000"
+        android:text="开始选择国家" />
+</RelativeLayout>

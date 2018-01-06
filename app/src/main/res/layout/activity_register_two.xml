@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/loggin"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/returnbtn"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="输入短信验证码"
+        />
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="20dp"
+        android:theme="@style/whiteEditText"
+        android:textColor="#fff"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="用户名"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="20dp"
+        android:theme="@style/whiteEditText"
+        android:textColor="#fff"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:text="密码"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="20dp"
+        android:theme="@style/whiteEditText"
+        android:textColor="#fff"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="14dp"
+        android:background="@mipmap/logginbtn"
+        android:text="下一步"
+        android:textColor="#ffffff" />
+</LinearLayout>
+

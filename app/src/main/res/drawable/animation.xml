@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画
+    根标签下，通过item标签对动画中的每一个图片进行声明
+    android:duration 表示展示所用的该图片的时间长度
+ -->
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+    <item android:drawable="@drawable/timg1" android:duration="70"/>
+    <item android:drawable="@drawable/timg2" android:duration="70"/>
+    <item android:drawable="@drawable/timg3" android:duration="70"/>
+    <item android:drawable="@drawable/timg4" android:duration="80"/>
+    <item android:drawable="@drawable/timg5" android:duration="80"/>
+    <item android:drawable="@drawable/timg6" android:duration="80"/>
+    <item android:drawable="@drawable/timg7" android:duration="80"/>
+    <item android:drawable="@drawable/timg8" android:duration="80"/>
+    <item android:drawable="@drawable/timg9" android:duration="80"/>
+    <item android:drawable="@drawable/timg10" android:duration="80"/>
+    <item android:drawable="@drawable/timg11" android:duration="80"/>
+    <item android:drawable="@drawable/timg12" android:duration="80"/>
+    <item android:drawable="@drawable/timg13" android:duration="80"/>
+</animation-list>

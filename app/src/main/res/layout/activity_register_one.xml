@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/loggin"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/returnbtn"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        />
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/newregistertitle"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="29dp"
+        android:layout_weight="0.07" />
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="20dp"
+        android:theme="@style/whiteEditText"
+        android:textColor="#fff"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="14dp"
+        android:background="@mipmap/logginbtn"
+        android:text="下一步"
+        android:textColor="#ffffff" />
+</LinearLayout>

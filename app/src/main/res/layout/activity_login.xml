@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/loggin">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginRight="69dp"
+        android:background="@null"
+        android:hint="用户名/手机号"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:inputType="phone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"
+        android:text="——————————————————————————————————————————"
+        android:textColor="#ffffff"
+        android:maxLines="1" />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="69dp"
+        android:layout_marginRight="69dp"
+        android:textColor="#ffffff"
+        android:hint="密码"
+        android:textColorHint="#ffffff"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"
+        android:text="——————————————————————————————————————————"
+        android:textColor="#ffffff"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@mipmap/logginbtn"
+        android:text="登录"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="忘记密码？"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/tv_registe"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="没有账号现在注册"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+       android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="登录即代表阅读并同意"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务条款"
+            android:textColor="#7cc2d1"/>
+    </LinearLayout>
+</LinearLayout>
